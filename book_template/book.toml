@@ -1,0 +1,13 @@
+[book]
+authors = ["chenxiaolong"]
+language = "en"
+src = "src"
+title = "高等数学"
+
+[output.html]
+additional-css = ["./theme/css/catppuccin.css", "./theme/css/custom.css"]
+default-theme = "latte"
+preferred-dark-theme = "latte"
+
+[preprocessor.katex]
+after = ["links"]
