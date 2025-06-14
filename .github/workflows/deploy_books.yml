@@ -21,8 +21,8 @@ jobs:
 
     - name: Install mdBook
       run: |
-        chmod +x "${GITHUB_WORKSPACE}/.github/tools/mdBook"
-        chmod +x "${GITHUB_WORKSPACE}/.github/tools/mdBook-katex"
+        chmod +x "${GITHUB_WORKSPACE}/.github/tools/mdook"
+        chmod +x "${GITHUB_WORKSPACE}/.github/tools/mdook-katex"
         echo "${GITHUB_WORKSPACE}/.github/tools" >> $GITHUB_PATH
         
     - name: Verify mdbook version
