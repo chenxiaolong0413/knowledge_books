@@ -13,6 +13,12 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Debug: List files0
+      run: ls -lR "${GITHUB_WORKSPACE}/"
+
+    - name: Debug: List files1
+      run: ls -lR "${GITHUB_WORKSPACE}/.github/tools"
+
     - name: Install mdBook
       run: |
         chmod +x "${GITHUB_WORKSPACE}/.github/tools/mdBook"
