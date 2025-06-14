@@ -15,9 +15,10 @@ jobs:
 
     - name: Install mdBook
       run: |
-        curl -sSL https://github.com/rust-lang/mdBook/releases/latest/download/mdbook-v0.4.36-x86_64-unknown-linux-gnu.tar.gz | tar -xz
-        sudo mv mdbook /usr/local/bin
-
+        chmod +x tools/mdBook
+        chmod +x tools/mdBook-katex
+        echo "${GITHUB_WORKSPACE}/tools" >> $GITHUB_PATH
+        
     - name: Build the book
       working-directory: book_template
       run: mdbook build
