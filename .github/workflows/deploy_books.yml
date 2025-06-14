@@ -1,0 +1,31 @@
+name: Deploy knowledge_books
+
+on:
+  push:
+    branches:
+      - main  # 或者你使用的其他主分支名
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install mdBook
+      run: |
+        curl -sSL https://github.com/rust-lang/mdBook/releases/latest/download/mdbook-v0.4.36-x86_64-unknown-linux-gnu.tar.gz | tar -xz
+        sudo mv mdbook /usr/local/bin
+
+    - name: Build the book
+      working-directory: book_template
+      run: mdbook build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: publish_books/book_template
+        publish_branch: gh-pages  # 你想部署的分支
+        cname: "yinghuochong" # 如果你使用自定义域名，可以填写
