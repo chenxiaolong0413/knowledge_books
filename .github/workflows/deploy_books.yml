@@ -47,6 +47,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: publish_books/book_template
+        publish_dir: book_template/book
         publish_branch: gh-pages  # 你想部署的分支
         cname: "yinghuochong" # 如果你使用自定义域名，可以填写
