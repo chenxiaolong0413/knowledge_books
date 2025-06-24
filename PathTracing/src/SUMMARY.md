@@ -3,6 +3,7 @@
     - [Overview](./RT_in_OneWeekend/overview.md)
     - [Output an Image](./RT_in_OneWeekend/output_an_image.md)
         - [The PPM Image Format](./RT_in_OneWeekend/ppm.md)
+    - [Rays,Camera and Background](./RT_in_OneWeekend/ray_camera.md)
 
 - [Direct3D 12](dx12/dx12.md)
     - [Important Changes](dx12/important_changes.md)
