@@ -14,7 +14,8 @@
     - [可定位相机](OneWeekend/12_positionable_camera.md)
     - [散焦模糊](OneWeekend/13_defocus_blur.md)
     - [下一步去哪](OneWeekend/14_next.md)
-
+    - [Snel's Law](./OneWeekend/fresnel.md)
+    - [Fresnel Equation](./OneWeekend/fresnel_equation.md)
 - [DirectX11 相关](#2)
     - [Multithreading](directx11/multithreading.md)
     - [Effect](directx11/effect/effect.md)

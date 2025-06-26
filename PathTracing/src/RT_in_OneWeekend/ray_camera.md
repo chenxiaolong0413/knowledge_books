@@ -171,3 +171,7 @@ color ray_color(const ray& r) {
 这样就得到了一个从白色渐变到蓝色的背景效果。
 
 ![alt text](image-3.png)
+
+
+![alt text](image-4.png)
+
