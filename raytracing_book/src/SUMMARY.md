@@ -16,6 +16,7 @@
     - [下一步去哪](OneWeekend/14_next.md)
     - [Snel's Law](./OneWeekend/fresnel.md)
     - [Fresnel Equation](./OneWeekend/fresnel_equation.md)
+    - [Monte Calor](./OneWeekend/monte_calor.md)
 - [DirectX11 相关](#2)
     - [Multithreading](directx11/multithreading.md)
     - [Effect](directx11/effect/effect.md)
