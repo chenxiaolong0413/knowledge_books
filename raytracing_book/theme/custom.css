@@ -1,0 +1,80 @@
+/* ---------- 通用字体设置 ---------- */
+body {
+    font-family: "Noto Serif SC", "Noto Sans", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* ---------- 段落样式 ---------- */
+p {
+    text-indent: 2em;        /* 首行缩进 */
+    margin-bottom: 1em;      /* 段间距 */
+    text-align: justify;     /* 两端对齐 */
+}
+
+/* ---------- 标题样式优化 ---------- */
+h1, h2, h3 {
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 1.4;
+}
+
+/* ---------- 分割线样式 ---------- */
+hr {
+    border: none;
+    border-top: 1px solid #787676;
+    margin: 2em 0;
+}
+
+/* ---------- 引用块样式 ---------- */
+blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 1em;
+    color: #666;
+    background-color: #f9f9f9;
+    margin: 1.5em 0;
+    font-style: italic;
+}
+
+/* ---------- 列表项段落不缩进 ---------- */
+li p {
+    text-indent: 0;
+}
+
+/* ---------- 代码块不缩进 ---------- */
+pre p {
+    text-indent: 0;
+}
+
+/* ---------- 空行支持 ---------- */
+.space-1em {
+    height: 1em;
+}
+.space-2em {
+    height: 2em;
+}
+.space-3em {
+    height: 3em;
+}
+
+/* 统一折叠箭头样式 */
+.chapter-item .toggle div {
+    color: #050505;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+    margin-left: 4px;
+}
+
+/* 展开时的旋转（箭头朝下） */
+.chapter-item.expanded > .toggle div {
+    transform: rotate(90deg);
+    color: #040404;
+}
+
+/* 鼠标悬停反馈 */
+.chapter-item .toggle:hover div {
+    color: #222;
+    cursor: pointer;
+}
+

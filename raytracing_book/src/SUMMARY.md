@@ -1,0 +1,28 @@
+# Summary
+- [光线追踪](#1)
+    - [概述](./OneWeekend/1_overview.md)
+    - [输出图片](OneWeekend/2_output_an_image.md)
+    - [向量]()
+    - [光线.相机与背景](OneWeekend/4_rays_camera.md)
+    - [添加一个球体](OneWeekend/5_add_sphere.md)
+    - [表面法线与多个物体](OneWeekend/6_surface_normals.md)
+    - [相机代码整理](OneWeekend/7_move_camera.md)
+    - [抗锯齿](OneWeekend/8_antialiasing.md)
+    - [漫反射材质](OneWeekend/9_diffuse_materials.md)
+    - [金属材质](OneWeekend/10_metal.md)
+    - [电介质](OneWeekend/11_dielectrics.md)
+    - [可定位相机](OneWeekend/12_positionable_camera.md)
+    - [散焦模糊](OneWeekend/13_defocus_blur.md)
+    - [下一步去哪](OneWeekend/14_next.md)
+    - [Snel's Law](./OneWeekend/fresnel.md)
+    - [Fresnel Equation](./OneWeekend/fresnel_equation.md)
+- [DirectX11 相关](#2)
+    - [Multithreading](directx11/multithreading.md)
+    - [Effect](directx11/effect/effect.md)
+    - [DirectCompute](DirectCompute.md)
+    
+        
+- [unity engine 实现](#3)
+    - [Github_TrueTrace](./Unity/TrueTrace.md)
+
+- [过程笔记](noted.md)

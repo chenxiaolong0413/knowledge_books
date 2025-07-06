@@ -1,0 +1,19 @@
+[book]
+authors = ["chenxiaolong"]
+language = "en"
+src = "src"
+title = "光线追踪"
+
+[output.html]
+# mathjax-support = true
+additional-css = ["theme/custom.css"]
+additional-js = ["theme/custom.js"]
+
+# [output.katex]
+
+[output.html.fold]
+enable = true            # 启用目录折叠
+level = 1                # 设置折叠深度（例如：1 表示第一级目录开始折叠）
+
+[preprocessor.katex]
+after = ["links"]
