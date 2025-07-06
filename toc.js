@@ -8,7 +8,7 @@ class MDBookSidebarScrollbox extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="映射与函数.html"><strong aria-hidden="true">1.</strong> 映射与函数</a></li><li class="chapter-item expanded "><a href="洛必达法则.html"><strong aria-hidden="true">2.</strong> 洛必达法则</a></li><li class="chapter-item expanded "><a href="泰勒公式.html"><strong aria-hidden="true">3.</strong> 泰勒公式</a></li><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">4.</strong> Chapter 1</a></li></ol>';
+        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="高等数学.html"><strong aria-hidden="true">1.</strong> 高等数学</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="映射与函数.html"><strong aria-hidden="true">1.1.</strong> 映射与函数</a></li><li class="chapter-item expanded "><a href="洛必达法则.html"><strong aria-hidden="true">1.2.</strong> 洛必达法则</a></li><li class="chapter-item expanded "><a href="泰勒公式.html"><strong aria-hidden="true">1.3.</strong> 泰勒公式</a></li></ol></li><li class="chapter-item expanded "><a href="windows_divers.html"><strong aria-hidden="true">2.</strong> Windows 驱动开发</a></li></ol>';
         // Set the current, active page, and reveal it if it's hidden
         let current_page = document.location.href.toString().split("#")[0].split("?")[0];
         if (current_page.endsWith("/")) {
